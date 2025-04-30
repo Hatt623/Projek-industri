@@ -64,7 +64,7 @@
                 <textarea name="isi" aria-describedby="basic-addon1" class="form-control" id="isi" disabled required>{{$artikel->isi}} </textarea>
             </div>
 
-            <a href="{{ route('kategori.index') }}" class="btn btn-primary">Back</a>
+            <a href="{{ route('artikel.index') }}" class="btn btn-primary">Back</a>
         </form>
 
         </div>

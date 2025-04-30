@@ -51,7 +51,9 @@
                 <td> {{$data->nama_artikel}} </td>
                 <td><img src="{{ asset('images/artikel/' . $data->image) }}" width="100px"></td>
                 <td> {{$data->kategori->nama_kategori}} </td>
-                <td> {{$data->isi}} </td>
+                <td> 
+                    <textarea style="width: 50rem; " disabled>{{$data->isi}} </textarea>
+                </td>
                 <td class="text-center">
                     <a href=" {{ route('artikel.edit' , $data->id) }} " class="btn btn-success">Edit</a>
                     <a href=" {{ route('artikel.show' , $data->id) }}" class="btn btn-warning">Show</a>
