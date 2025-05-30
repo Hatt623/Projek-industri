@@ -60,6 +60,7 @@
 
         <div class="container">
         <hr style="border: 2px solid black; border-radius: 5px;">
+        <h2 class="fw-bolder mb-4 text-center">News Today</h2>
 
             <div class="row">
                 @foreach ($artikel as $data)
